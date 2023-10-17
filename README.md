@@ -1,4 +1,4 @@
-## Trabajo integrador | **MERCADOLIEBRE**
+## Trabajo integrador | *MERCADOLIEBRE*
 
 ### Autor: Muñoz Loza Ludmila
 
