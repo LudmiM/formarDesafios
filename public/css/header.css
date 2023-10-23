@@ -1,26 +1,26 @@
 header{
    background-color: #EAC926;
 }
+header i{
+   color: black;
+}
 .logo{
    margin: 20px;
-   width: 200px;
-}
-.cont__barra__busquedas{
-   margin-left: 15px;
+   width: 140px;
 }
 .cont__lupa{
    background-color: #ebebeb;
-   display: inline;
+   width: 15px;
    padding: 2px;
 }
 .icono__y__texto p, .icono__y__texto i{
    display: inline-block;
    text-align: center;
 }
-.icono__y__texto{
-   align-items: center;
-   left: 50%;
-
+header .icono__y__texto{
+   display: flex;
+   /*align-items: center;*/
+   justify-content: center
 }
 header .burger-menu{
    background-color: #1259c3;
@@ -31,7 +31,7 @@ header .burger-menu{
    width: auto;
 }
 
- header .burger-menu i{
+header .burger-menu i{
    color: #ebebeb;
    font-size: 2em;
- }
+}
