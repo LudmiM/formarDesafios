@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Home | Mercado Liebre</title>
 </head>
 <body>
     <header>
         <img src="/images/logo-mercado-liebre.svg" width="300" alt="mercado liebre logo">
         <div>
-            <p>Lugar para poner la barra de busqueda</p>
-            <p>Compra en cuotas y sin tarjeta de credito</p>
+            <div>
+                <input type="text" placeholder="Buscar productos, marcas">
+                <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hand-holding-dollar" style="color: #000000;"></i>
+                <p>Compra en cuotas y sin tarjeta de credito</p>
+            </div>
         </div>
         <nav>
             <ul>
@@ -20,9 +27,18 @@
                 <li><a href="#">Ayuda</a></li>
             </ul>
             <ul>
-                <li><a href="#">Crea tu cuenta</a></li>
-                <li><a href="#">Ingresa</a></li>
-                <li><a href="#">Mis compras</a></li>
+                <li>
+                    <a href="#">Crea tu cuenta</a>
+                    <i class="fa-regular fa-address-card" style="color: #000000;"></i>
+                </li>
+                <li>
+                    <a href="#">Ingresa</a>
+                    <i class="fa-solid fa-arrow-right-to-bracket" style="color: #000000;"></i>
+                </li>
+                <li>
+                    <a href="#">Mis compras</a>
+                    <i class="fa-solid fa-basket-shopping" style="color: #000000;"></i>
+                </li>
             </ul>
         </nav>
         <div class="burger-menu">
@@ -103,5 +119,6 @@
         </section>
         <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
     </footer>
+    <script src="https://kit.fontawesome.com/62a6949a36.js" crossorigin="anonymous"></script>
 </body>
 </html>
