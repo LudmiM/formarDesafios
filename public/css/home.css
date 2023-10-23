@@ -7,3 +7,16 @@
 body{
     width: 350px;
 }
+p{
+    font-size: 12px;
+}
+.precios{
+    font-size: 18px;
+}
+.descripciones , .descuentos{
+    font-size: 16px;
+}
+
+h3{
+    font-size: 24px;
+}

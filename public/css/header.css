@@ -2,12 +2,22 @@ header{
    background-color: #EAC926;
  }
 
+.icono__y__texto{
+   align-items: center;
+}
+
+.icono__y__texto i, .icono__y__texto p{
+   margin: 0;
+}
+
 header .burger-menu{
    background-color: #1259c3;
    display: inline-block;
-   /*margin: auto*/
-   padding: 10px;
    border-radius: 5px;
+   padding: 10px;
+   margin: 50px;
+   width: auto;
+   
  }
 
  header .burger-menu i{
