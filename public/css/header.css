@@ -4,6 +4,9 @@ header{
 header i{
    color: black;
 }
+.cont__barra__busquedas{
+   margin-left: 15px;
+}
 .logo{
    margin: 20px;
    width: 140px;
@@ -18,19 +21,20 @@ header i{
    text-align: center;
 }
 header .icono__y__texto{
+   margin: 15px;
    display: flex;
+   justify-content: center;
    /*align-items: center;*/
-   justify-content: center
+}
+ul{
+   margin-bottom: 15px;
 }
 header .burger-menu{
    background-color: #1259c3;
-   display: inline-block;
-   border-radius: 5px;
+   border-radius: 5px;   
    padding: 10px;
-   margin: 50px;
-   width: auto;
+   width: 30px;
 }
-
 header .burger-menu i{
    color: #ebebeb;
    font-size: 2em;
