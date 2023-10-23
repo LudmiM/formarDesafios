@@ -1,7 +1,8 @@
- header{
-    background-color: #EAC926;
+header{
+   background-color: #EAC926;
+   margin: 0;
  }
 
-.burger-menu{
-    background-color: #03264C;
+ .burger-menu{
+   background-color: #03264C;
  }
