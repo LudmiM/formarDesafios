@@ -34,7 +34,8 @@ header .burger-menu{
    border-radius: 5px;   
    padding: 10px;
    width: 30px;
-   
+   display: grid;
+   place-content: center;
 }
 header .burger-menu i{
    color: #ebebeb;
