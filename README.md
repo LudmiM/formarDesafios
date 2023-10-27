@@ -2,7 +2,7 @@
 
 ### Autor: Muñoz Loza Ludmila
 
-#### *Estructura de ramas*
+#### Estructura de ramas
 
 - Master: Partes aprobadas
 - 1_Estructura: Estructura inicial
