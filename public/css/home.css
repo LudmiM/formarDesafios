@@ -3,9 +3,11 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
-    width: 300px;
+    /*width: 300px;*/
+    width: 100%;
 }
 p{
     font-size: 12px;

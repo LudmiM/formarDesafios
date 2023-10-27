@@ -1,5 +1,5 @@
 header{
-   background-color: #EAC926;
+   background-color: var(--colorAmarillo);
 }
 header i{
    color: black;
@@ -12,7 +12,7 @@ header i{
    width: 140px;
 }
 .cont__lupa{
-   background-color: #ebebeb;
+   background-color: var(--colorGrisClaro);
    width: 15px;
    padding: 2px;
 }
@@ -38,13 +38,13 @@ ul{
    
 }
 header .burger-menu{
-   background-color: #1259c3;
+   background-color: var(--colorCeleste);
    border-radius: 5px;   
    padding: 10px;
    width: 30px;
    margin-bottom: 20px;
 }
 header .burger-menu i{
-   color: #ebebeb;
+   color: var(--colorGrisClaro);
    font-size: 2em;
 }
