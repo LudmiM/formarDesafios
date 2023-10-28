@@ -17,7 +17,6 @@ section article{
 }
 main section article{
     margin: 10px 0;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 article .imagen__tarjeta{
     width: 100%;
@@ -29,14 +28,35 @@ article .imagen__tarjeta{
     border: 1px solid var(--colorGrisClaro);
     padding: 15px;
 }
+.contenedor__conjunto .descripciones{
+    color: var(--colorGrisOscuro);
+    margin-top: 20px;
+    display: none;
+}
 .contenedor__icono__truck{
     border: 1px solid var(--colorVerde);
     padding: 10px;
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: auto;
     border-radius: 50%;
     font-size: 20px;
 }
 .contenedor__icono__truck, .descuentos{
     color: var(--colorVerde);
+}
+/*Tablet*/
+@media (min-width:361px) {
+    main{
+        margin-bottom: 6%;
+    }
+    main section article{ 
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .contenedor__conjunto .descripciones{
+        font-weight: normal;
+        display: block;
+    }
+}
+@media (min-width:769px) {
+    /*Estilos desktop*/
 }

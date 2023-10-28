@@ -1,5 +1,6 @@
 header{
    background-color: var(--colorAmarillo);
+   height: auto;
 }
 header i{
    color: black;
@@ -12,9 +13,12 @@ header i{
    margin: 20px;
    width: 140px;
 }
+input{
+   margin-right: 5px;
+}
 .cont__lupa{
    background-color: var(--colorGrisClaro);
-   width: 15px;
+   width: 20px;
    padding: 2px;
 }
 .icono__y__texto p, .icono__y__texto i{
@@ -27,9 +31,15 @@ header .icono__y__texto{
    justify-content: center;
    /*align-items: center;*/
 }
-ul{
-   margin-bottom: 15px;
+header nav{
+   margin: 0;
+   padding-bottom: 20px;
+   margin-left: 15px;
    display: none;
+}
+li a{
+   /*color: var(--colorGrisOscuro);*/
+   color: #000;
 }
 .cont__burger{
    width: 100%;
@@ -48,4 +58,16 @@ header .burger-menu{
 header .burger-menu i{
    color: var(--colorGrisClaro);
    font-size: 2em;
+}
+/*Tablet*/
+@media (min-width:361px) {
+   .cont__burger{
+      display:none;
+  }
+  header nav{
+      display: block;
+  }
+}
+@media (min-width:769px) {
+    
 }
