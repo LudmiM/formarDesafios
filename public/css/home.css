@@ -1,8 +1,23 @@
 main{
-    width: 90%;
-    background-color: var(--colorGrisOscuro);
+    width: 100%;
+    background-color: var(--colorGrisClaro);
 }
-
-article{
+main .banner{
+    width: 100%;
+}
+main section{
+    width: 90%;
+}
+main section article{
     margin: 10px 0;
+}
+article .imagen__tarjeta{
+    width: 100%;
+    height: auto;
+}
+.contenedor__conjunto{
+    width: 100%;
+}
+.contenedor__icono__truck, .descuentos{
+    color: var(--colorVerde);
 }
