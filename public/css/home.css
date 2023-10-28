@@ -5,12 +5,11 @@ main{
 main .banner{
     width: 100%;
 }
-main section{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
+section{
+    margin: 0 5%;
 }
 section article{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +17,7 @@ section article{
 }
 main section article{
     margin: 10px 0;
-    align-items: center;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 article .imagen__tarjeta{
     width: 100%;
@@ -27,6 +26,8 @@ article .imagen__tarjeta{
 .contenedor__conjunto{
     width: 100%;
     background-color: #FFF;
+    border: 1px solid var(--colorGrisClaro);
+    padding: 15px;
 }
 .contenedor__icono__truck{
     border: 1px solid var(--colorVerde);
