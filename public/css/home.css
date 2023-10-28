@@ -36,7 +36,7 @@ article .imagen__tarjeta{
 .contenedor__icono__truck{
     border: 1px solid var(--colorVerde);
     padding: 10px;
-    width: 20%;
+    width: 50px;
     height: auto;
     border-radius: 50%;
     font-size: 20px;
