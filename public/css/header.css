@@ -1,25 +1,33 @@
 header{
+   width: 100%;
    background-color: var(--colorAmarillo);
    height: auto;
+   position: relative;
 }
 header i{
    color: black;
 }
-.cont__barra__busquedas{
-   margin-left: 15px;
-   display: flex;
-}
 .logo{
    margin: 20px;
    width: 140px;
+   width: 50%;
+}
+.cont__barra__busquedas{
+   margin-left: 15px;
+   width: 50%;
+   display: flex;
 }
 input{
-   margin-right: 5px;
+   border-radius: 5px 0 0 5px;
+   overflow: hidden;
 }
 .cont__lupa{
-   background-color: var(--colorGrisClaro);
+   background-color: #FFF;
    width: 20px;
    padding: 2px;
+}
+.cont__lupa i{
+   color: var(--colorGrisOscuro);
 }
 .icono__y__texto p, .icono__y__texto i{
    display: inline-block;
