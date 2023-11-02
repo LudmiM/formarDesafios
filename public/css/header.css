@@ -42,12 +42,6 @@ input{
    text-align: center;
    margin: 20px 0;
 }
-header .aux .icono__y__texto{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-}
 header nav{
    margin: 0;
    padding-bottom: 20px;
