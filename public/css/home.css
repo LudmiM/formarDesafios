@@ -35,7 +35,6 @@ article .imagen__tarjeta{
 }
 .contenedor__conjunto .descripciones{
     color: var(--colorGrisOscuro);
-    /*margin-top: 20px;*/
     display: none;
 }
 .contenedor__conjunto{
@@ -76,7 +75,8 @@ article .imagen__tarjeta{
     margin-left: 10px;
 }
 /*Tablet*/
-@media (min-width:361px) {
+/*@media (min-width:361px) {*/
+@media (min-width:768px) {
     main{
         margin-bottom: 6%;
     }
