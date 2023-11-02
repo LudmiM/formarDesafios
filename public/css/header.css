@@ -3,26 +3,23 @@ header{
    width: 100%;
    height: auto;
 }
-/*Estilos logo, input-lupa, texto e icono, menu, y hamburguesa*/
 header .aux {
    width: 100%;
    display: flex;
-   flex-direction: column;
    justify-content: space-between;
-   flex-wrap: wrap;
+   flex-wrap: wrap;   
 }
-header i{
+header .aux i{
    color: black;
 }
 .logo{
    margin: 20px;
-   width: 140px;
-   width: 49%;
+   width: 40%;
    display: flex;
 }
 .cont__barra__busquedas{
    margin-left: 15px;
-   width: 49%;
+   width: 40%;
    display: flex;
 }
 input{
@@ -42,11 +39,10 @@ input{
    display: inline-block;
    text-align: center;
 }
-header .icono__y__texto{
-   margin: 15px;
+header .aux .icono__y__texto{
    display: flex;
    justify-content: center;
-   /*align-items: center;*/
+   align-items: center;
 }
 header nav{
    margin: 0;
@@ -64,13 +60,13 @@ li a{
    justify-content: center;
    align-items: center;
 }
-header .burger-menu{
+header .cont__burger .burger-menu{
    background-color: var(--colorCeleste);
    border-radius: 5px;   
    padding: 10px;
    margin-bottom: 20px;
 }
-header .burger-menu i{
+header .cont__burger .burger-menu i{
    color: var(--colorGrisClaro);
    font-size: 2em;
 }
@@ -80,18 +76,21 @@ header .burger-menu i{
    .cont__burger{
       display:none;
   }
-   header nav{
+  header nav{
       display: flex;
-      justify-content: space-between;
+      justify-content: space-between; 
   }
    nav ul{
-      display: flex;  
+      display: flex; 
   }
    nav ul li{
       margin: 10px; 
   }
 }
+/*Estilos desktop*/
 /*@media (min-width:769px) {*/
-   @media (min-width:1080px) {
-    /*Estilos desktop*/
+@media (min-width:1020px) {
+   .logo , .cont__barra__busquedas, .icono__y__texto{
+      width: 25%;
+   }
 }
