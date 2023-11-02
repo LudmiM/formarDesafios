@@ -1,8 +1,15 @@
 header{
-   width: 100%;
    background-color: var(--colorAmarillo);
+   width: 100%;
    height: auto;
-   position: relative;
+}
+/*Estilos logo, input-lupa, texto e icono, menu, y hamburguesa*/
+header .aux {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-wrap: wrap;
 }
 header i{
    color: black;
@@ -10,16 +17,18 @@ header i{
 .logo{
    margin: 20px;
    width: 140px;
-   width: 50%;
+   width: 49%;
+   display: flex;
 }
 .cont__barra__busquedas{
    margin-left: 15px;
-   width: 50%;
+   width: 49%;
    display: flex;
 }
 input{
    border-radius: 5px 0 0 5px;
    overflow: hidden;
+   display: flex;    
 }
 .cont__lupa{
    background-color: #FFF;
@@ -46,7 +55,6 @@ header nav{
    display: none;
 }
 li a{
-   /*color: var(--colorGrisOscuro);*/
    color: #000;
 }
 .cont__burger{
@@ -55,7 +63,6 @@ li a{
    flex-direction: row;
    justify-content: center;
    align-items: center;
-   
 }
 header .burger-menu{
    background-color: var(--colorCeleste);
@@ -72,8 +79,15 @@ header .burger-menu i{
    .cont__burger{
       display:none;
   }
-  header nav{
-      display: block;
+   header nav{
+      display: flex;
+      justify-content: space-between;
+  }
+   nav ul{
+      display: flex;  
+  }
+   nav ul li{
+      margin: 10px; 
   }
 }
 @media (min-width:769px) {
