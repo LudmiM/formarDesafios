@@ -6,9 +6,9 @@ main .banner{
     width: 100%;
 }
 section{
-    width: 90%;
-    background-color: red;
-    margin: 0 auto;
+    /*width: 90%;
+    margin: 0 auto;*/
+    padding: 0 5%;
 }
 section h3{
     width: 100%;
@@ -31,15 +31,13 @@ article .imagen__tarjeta{
     width: 100%;
     background-color: #FFF;
     border: 1px solid var(--colorGrisClaro);
-    padding: 15px;
+    padding: 5%;
+    position: relative;
+    display: flex;
 }
 .contenedor__conjunto .descripciones{
     color: var(--colorGrisOscuro);
     display: none;
-}
-.contenedor__conjunto{
-    position: relative;
-    display: flex;
 }
 .contenedor__conjunto i{
     display: block;
@@ -58,49 +56,48 @@ article .imagen__tarjeta{
     color: var(--colorVerde);
     justify-content: space-between;
 }
-/*
-.contenedor__icono__truck{
-    border: 1px solid var(--colorVerde);
-    padding: 10px;
-    width: 50px;
-    height: auto;
-    border-radius: 50%;
-    font-size: 20px;
-}
-.contenedor__icono__truck, .descuentos{
-    color: var(--colorVerde);
-}*/
 .descuentos{
     flex-direction: row;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 /*Tablet*/
 /*@media (min-width:361px) {*/
-@media (min-width:768px) {
+@media (min-width:530px) {
     main{
         margin-bottom: 6%;
     }
     main section article{ 
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+    .contenedor__conjunto{
+        position: relative;
+        height: 100px;
+    }
     .contenedor__conjunto .descripciones{
-        font-weight: normal;
+        font-weight: normal; 
         display: block;
-        margin-left: -125px;
-        margin-top: 40px
+        position: absolute;
+        top: 60px;
     }
     main section{
         width: 100%;
         display:flex;
-        /*flex-direction: row;*/
         flex-wrap: wrap;        
         justify-content: space-between;
     }
     article{
-        width: 50%;
+        width: 48%;
         height: auto;
     }
 }
-@media (min-width:769px) {
-    /*Estilos desktop*/
+/*Estilos desktop*/
+/*@media (min-width:769px) {*/
+@media (min-width:1020px) {
+    article{
+        width: 20%;
+        height: auto;
+    }
+    .contenedor__conjunto{
+        padding-top: 15%;
+    }
 }

@@ -75,7 +75,8 @@ header .burger-menu i{
    font-size: 2em;
 }
 /*Tablet*/
-@media (min-width:361px) {
+/*@media (min-width:361px) {*/
+   @media (min-width:530px) {
    .cont__burger{
       display:none;
   }
@@ -90,6 +91,7 @@ header .burger-menu i{
       margin: 10px; 
   }
 }
-@media (min-width:769px) {
+/*@media (min-width:769px) {*/
+   @media (min-width:1080px) {
     /*Estilos desktop*/
 }
