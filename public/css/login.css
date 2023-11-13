@@ -1,3 +1,13 @@
-.form__login{
-    
+/*Tablet*/
+/*@media (min-width:361px) {*/
+@media (min-width:530px) {
+    .form__login div label{
+        display: block;
+        font-size: 20px;
+    }
+}
+
+/*@media (min-width:769px) {*/
+@media (min-width:1020px) {
+    /*Estilos desktop*/
 }
