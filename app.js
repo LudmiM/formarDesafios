@@ -9,4 +9,7 @@ app.listen(PORT,()=>console.log(`Server esta corriendo en http://localhost:${POR
 
 
 app.get('/',(req,res)=>res.sendFile(path.join(__dirname,'views','home.html')));
+app.get('/login',(req,res)=>res.sendFile(path.join(__dirname,'views','login.html')));
+app.get('/register',(req,res)=>res.sendFile(path.join(__dirname,'views','register.html')));
+app.get('*',(req,res)=>res.sendFile(path.join(__dirname,'views','404.html')));
 //app.get('/home',(req,res)=>res.sendFile(path.join(__dirname,'views','home.html')));
