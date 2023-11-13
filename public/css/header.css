@@ -33,6 +33,7 @@ input{
    background-color: #FFF;
    width: 20px;
    padding: 2px;
+   margin-right: 20px;
 }
 .cont__lupa i{
    color: var(--colorGrisOscuro);
@@ -40,7 +41,10 @@ input{
 .icono__y__texto p, .icono__y__texto i{
    display: inline-block;
    text-align: center;
+}
+.icono__y__texto{
    margin: 20px 0;
+   margin-left: 25%;
 }
 header nav{
    margin: 0;
@@ -74,6 +78,10 @@ header .cont__burger .burger-menu i{
    .cont__burger{
       display:none;
   }
+  .logo, .icono__y__texto, .cont__barra__busquedas{
+      margin: 0;
+      width: 20%;
+  }
   header nav{
       display: flex;
       justify-content: space-between; 
@@ -85,10 +93,7 @@ header .cont__burger .burger-menu i{
       margin: 10px; 
   }
 }
-/*Estilos desktop*/
 /*@media (min-width:769px) {*/
 @media (min-width:1020px) {
-   .logo , .cont__barra__busquedas, .icono__y__texto{
-      width: 25%;
-   }
+   /*Estilos desktop*/
 }
