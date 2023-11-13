@@ -1,4 +1,4 @@
-main{
+/*main{
     width: 100%;
 }
 .form__register{
@@ -6,5 +6,11 @@ main{
     justify-content: center;
     align-items: center;
     /*width: 90%;
-    margin: 0 auto;*/
+    margin: 0 auto; }*/
+
+    .form__register{
+        width: 100%;
+    }
+.box__end{
+    width: 100%;
 }
