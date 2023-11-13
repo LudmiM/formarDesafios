@@ -1,12 +1,34 @@
-footer{
+footer {
     text-align: center;
-
 }
-footer i{
+footer i {
     font-size: 2em;
     margin-bottom: 10px;
     color: var(--colorCeleste);
 }
-footer section{
+footer section {
     margin: 30px;
+}
+
+/*Tablet*/
+/*@media (min-width:361px) {*/
+@media (min-width:545px) {
+    footer {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    footer section{
+        width: 25%;
+    }
+    footer p{
+        width: 100%;
+        margin-top: 25px;
+    }
+}
+/*@media (min-width:769px) {*/
+@media (min-width:1025px) {
+    footer section{
+        width: 28%;
+    }
 }
