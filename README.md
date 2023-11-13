@@ -9,3 +9,4 @@
 - 2_Estilos: Estructura inicial + estilos css
 - 3_diseñoAdaptativo: Estructura inicial + estilos css + diseño adaptativo
 - 4_flexbox: Estructura inicial + estilos css + diseño adaptativo + posicionamiento avanzado con flexbox
+- 5_formularios: Todo lo anterior + formulario de register y login
