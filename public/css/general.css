@@ -31,3 +31,6 @@ h3{
     font-size: 24px;
     color: var(--colorGrisOscuro);
 }
+input:focus {
+    outline: none;
+}
