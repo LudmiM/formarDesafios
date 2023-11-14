@@ -71,46 +71,8 @@
             </div>
             <div class="form__box">
                 <label class="form__label" for="domicilio">Ingrese su domicilio</label>
-                <input class="form__input" id="domicilio" type="text" name="domicilio">
+                <input class="form__input" id="domicilio" type="text"  placeholder="Ingresa su domicilio" name="domicilio">
             </div>
-            <div class="form__box">
-                <h4 class="form__label">Género</h4>
-                <div>
-                    <input type="radio" id="perfilComprador" name="perfilUsuario" value="perfilComprador">
-                    <label for="perfilComprador">Comprador</label>
-                </div>
-                <div>
-                    <input type="radio" id="perfilVendedor" name="perfilUsuario" value="perfilVendedor">
-                    <label for="perfilVendedor">Vendedor</label>
-                </div>
-            </div>
-            <div class="form__box">
-                <h4 class="form__label">Intereses:</h4>
-                <div class="form__box--col50">
-                    <input type="checkbox" name="info" id="electro">
-                    <label for="electro">Electro</label>
-                </div>
-                <div class="form__box">
-                    <input type="checkbox" name="info" id="moda">
-                    <label for="moda">Moda</label>
-                </div>
-                <div class="form__box">
-                    <input type="checkbox" name="info" id="hogar">
-                    <label for="hogar">Hogar</label>
-                </div>
-                <div class="form__box">
-                    <input type="checkbox" name="info" id="jugueteria">
-                    <label for="jugueteria">Juguetería</label>
-                </div>
-                <div class="form__box">
-                    <input type="checkbox" name="info" id="vidasana">
-                    <label for="vidasana">Vida sana</label>
-                </div>
-            </div>
-            <div class="form__box">
-                <label for="avatar" class="form__label" id="imagenPerfil">Imagen del perfil</label>
-                <input type="file" class="form__input" accept="image/*" id="avatar">
-            </div>            
             <div class="form__box">
                 <label class="form__label" for="usuario">Usuario</label>
                 <input class="form__input" id="usuario" type="text" placeholder="Ingresa su nuevo usuario" name="usuario">
@@ -125,6 +87,47 @@
                     <input class="form__input" id="password2" type="password" placeholder="Ingresa tu contraseña" name="password2">
                 </div>
             </div>
+
+            <section>
+                <h4 class="form__label">Perfil:</h4>
+                <div>
+                    <input type="radio" id="perfilComprador" name="perfilUsuario" value="perfilComprador">
+                    <label for="perfilComprador">Comprador</label>
+                </div>
+                <div>
+                    <input type="radio" id="perfilVendedor" name="perfilUsuario" value="perfilVendedor">
+                    <label for="perfilVendedor">Vendedor</label>
+                </div>
+            </section>
+
+            <section>
+                <h4 class="form__label">Intereses:</h4>
+                <div>
+                    <input type="checkbox" name="info" id="electro">
+                    <label for="electro">Electro</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="info" id="moda">
+                    <label for="moda">Moda</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="info" id="hogar">
+                    <label for="hogar">Hogar</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="info" id="jugueteria">
+                    <label for="jugueteria">Juguetería</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="info" id="vidasana">
+                    <label for="vidasana">Vida sana</label>
+                </div>
+            </section>
+
+            <div class="form__box">
+                <label for="avatar" class="form__label" id="imagenPerfil">Imagen del perfil</label>
+                <input type="file" class="form__input" accept="image/*" id="avatar">
+            </div>            
             <div class="box__end">
                 <button class="button button__primary" type="submit">Enviar</button>
                 <a href="/register" class="button button__secondary">Limpiar</a>
@@ -151,7 +154,7 @@
             <p class="cuerpo__texto">¿No te gusta? ¡Devolvelo! En MercadoLiebre <br>no hay nada que no puedas hacer
                 porque estás <br>siempre protegid@.</p>
         </section>
-        <p class="cuerpo__texto">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        <p class="cuerpo__texto p__of__footer">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
     </footer>
 </body>
 </html>
