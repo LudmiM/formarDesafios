@@ -1,3 +1,8 @@
+.button__primary:hover{
+    transition: all 3s;
+    background-color: var(--colorAzulTransition);
+}
+
 /*Tablet*/
 /*@media (min-width:361px) {*/
 @media (min-width:530px) {
