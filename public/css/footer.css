@@ -24,6 +24,7 @@ footer section {
     footer p{
         width: 100%;
         margin-top: 25px;
+        text-align: center;
     }
 }
 /*@media (min-width:769px) {*/

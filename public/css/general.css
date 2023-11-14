@@ -16,6 +16,7 @@
 }
 body{
     width: 100%;
+    background-color: var(--colorGrisClaro);
 }
 p{
     font-size: 12px;
