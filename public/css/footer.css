@@ -6,6 +6,10 @@ footer i {
     margin-bottom: 10px;
     color: var(--colorCeleste);
 }
+footer i:hover {
+    transition: all 3s;
+    color: var(--colorVerde);
+}
 footer section {
     margin: 30px;
 }
