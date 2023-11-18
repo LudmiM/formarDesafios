@@ -10,3 +10,4 @@
 - 3_diseñoAdaptativo: Estructura inicial + estilos css + diseño adaptativo
 - 4_flexbox: Estructura inicial + estilos css + diseño adaptativo + posicionamiento avanzado con flexbox
 - 5_formularios: Todo lo anterior + formulario de register y login
+- 6_organizando: Todo lo anterior + formulario de register y login + propiedades transition y transform

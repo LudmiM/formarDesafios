@@ -34,10 +34,15 @@ article .imagen__tarjeta{
     padding: 5%;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
+    cursor: default;
 }
 .contenedor__conjunto .descripciones{
     color: var(--colorGrisOscuro);
-    display: none;
+    transition: all 3s;
+    width: 100%;
+    overflow: hidden;
+    height: 0;
 }
 .contenedor__conjunto i{
     display: block;
@@ -51,6 +56,10 @@ article .imagen__tarjeta{
     position: absolute;
     right: 25px;;
     top: -20px;
+    transition: all 5s;
+}
+.contenedor__conjunto i:hover{
+    transform: rotate(360deg); /*-90deg*/
 }
 .contenedor__conjunto i, .descuentos{
     color: var(--colorVerde);
@@ -59,25 +68,36 @@ article .imagen__tarjeta{
 .descuentos{
     flex-direction: row;
     margin-left: 20px;
+    width: 30%;
 }
+.precio{
+    width: 70%;
+}
+
 /*Tablet*/
 /*@media (min-width:361px) {*/
 @media (min-width:530px) {
     main{
         margin-bottom: 6%;
     }
-    main section article{ 
+    section{
+        align-items: flex-start;
+    }
+    main section article:hover{ 
+        transition: all 2s;
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     .contenedor__conjunto{
         position: relative;
+        /*flex-wrap: wrap;*/
         height: 100px;
     }
-    .contenedor__conjunto .descripciones{
+    .contenedor__conjunto:hover .descripciones{
         font-weight: normal; 
-        display: block;
         position: absolute;
         top: 60px;
+        height: auto;
+        /*overflow: hidden;*/
     }
     main section{
         width: 100%;
