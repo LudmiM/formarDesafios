@@ -12,4 +12,4 @@
 - 5_formularios: Todo lo anterior + formulario de register y login
 - 6_organizando: Todo lo anterior + formulario de register y login + propiedades transition y transform
 
-## Mira mi deploy: (https://mercadoliebre-gqun.onrender.com/)
+## Mira mi deploy:(https://mercadoliebre-gqun.onrender.com/)
